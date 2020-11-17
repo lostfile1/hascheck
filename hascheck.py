@@ -14,4 +14,4 @@ elif sys.argv[2] =="sha":
     print("sha1:",hashlib.sha1(data).hexdigest())
 
 elif sys.argv[2] =="sha5":
-    print("sha512:",hashlib.sha512(data).hexdigest())
+    print("sha5:",hashlib.sha512(data).hexdigest())
