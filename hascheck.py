@@ -10,5 +10,8 @@ with open(sys.argv[1],'rb') as flk:
 if sys.argv[2] =="md":
     print("md5:",hashlib.md5(data).hexdigest())
     
-if sys.argv[2] =="sha": 
+elif sys.argv[2] =="sha": 
     print("sha1:",hashlib.sha1(data).hexdigest())
+
+elif sys.argv[2] =="sha5":
+    print("sha512:",hashlib.sha512(data).hexdigest())
